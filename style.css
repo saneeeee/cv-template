@@ -1,0 +1,40 @@
+* {
+    font-family: 'Muli', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer {
+    position:fixed;
+    bottom:10px;
+    height:20px;
+    width:100%;
+    font-size: 10px;
+ }
+.main-content {
+    width: 75%;
+    margin: 30px;
+    padding: 10px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    border-bottom: 2px solid #eeeeee;
+}
+b {
+    font-weight: 200;
+}
+.profile-image {
+    max-width: 150px;
+    clip-path: circle();
+}
+a:link, a:visited, a:hover, a:active {
+    color: darkgrey;
+}
