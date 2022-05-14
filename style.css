@@ -28,6 +28,10 @@ h1 {
     font-weight: 100;
     border-bottom: 2px solid #eeeeee;
 }
+/* Delete the section selector if section bottom borders are undesired */
+.section {
+    border-bottom: 2px solid #eeeeee;
+}
 b {
     font-weight: 200;
 }
